@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(119, 180, 113);
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      text-align: center;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size: 2rem;
+      margin: 2rem auto;
+    }
+    section.cover {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p.introduction {
+        width: 500px;
+        text-align: justify;
+      }
+      img.pasta {
+        width: 500px;
+        height: auto;
+        border-radius: 1rem;
+        margin: 1rem;
+      }
+    }
+
+    article {
+      background-color: white;
+      width: 500px;
+      padding: 0.5rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+
+      section.ingredients {
+        flex: 1 1 250px;
+        h2 {
+          margin-bottom: 0.5rem;
+          font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        ul {
+          margin-left: 1rem;
+          line-height: 2rem;
+        }
+      }
+      section.directions {
+        flex: 1 1 400px;
+        h2 {
+          margin-bottom: 0.5rem;
+          font-family: "Trebuchet MS", Helvetica, sans-serif;
+        }
+        section.steps {
+          h3 {
+            margin: 0.5rem 0;
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+    section.container {
+      width: 700px;
+      height: 430px;
+      background-color: white;
+      display: flex;
+      border-radius: 1rem;
+      figure {
+        margin: 1.5rem;
+        img {
+          width: 350px;
+          height: auto;
+        }
+        figcaption {
+          text-align: center;
+          color: grey;
+        }
+      }
+      section.text {
+        padding: 1.5rem 1.5rem 0 1.5rem;
+        display: flex;
+        flex-direction: column;
+        p {
+          flex: 1 1 250px;
+        }
+        ul {
+          flex: 1 1 180px;
+          margin-left: 1rem;
+          li {
+            padding: 0.5rem 0;
+            a {
+              font-family: "Trebuchet MS", Helvetica, sans-serif;
+              text-decoration: none;
+              color: rgb(58, 87, 55);
+              font-size: 1rem;
+              font-weight: 700;
+              transition: all 0.1s ease-in;
+              &:hover {
+                color: rgb(166, 96, 232);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  footer {
+    margin-top: 2rem;
+    text-align: center;
+    a {
+      transition: all 0.1s ease-in;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: rgb(203, 232, 96);
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    main {
+      section.cover {
+        p.introduction {
+          width: 300px;
+        }
+        img.pasta {
+          width: 300px;
+        }
+      }
+      article {
+        width: 300px;
+      }
+      section.container {
+        flex-direction: column;
+        width: 300px;
+        height: 700px;
+        figure {
+          flex: 0 1 250px;
+          img {
+            width: 250px;
+            height: auto;
+          }
+        }
+        section.text {
+          flex: 1 1 450px;
+          padding: 0 1.5rem 0 1.5rem;
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}
