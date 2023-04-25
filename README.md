@@ -6,6 +6,8 @@ This is a solutions to the [Odin Project](https://www.theodinproject.com/about).
 
 - [Solutions](#solutions)
   - [Odin recipes](#odin-recipes)
+  - [Landing page](#landing-page)
+  - [Rock Paper Scissors](#rock-paper-scissors)
 - [Author](#author)
 
 ## Solutions
@@ -13,6 +15,14 @@ This is a solutions to the [Odin Project](https://www.theodinproject.com/about).
 ### Odin recipes
 
 - [Odin recipes](https://github.com/ytsai4/OdinProject/tree/master/odin-recipes)
+
+### Landing page
+
+- [Landing page](https://github.com/ytsai4/OdinProject/tree/master/landing-page)
+
+### Rock Paper Scissors
+
+- [Rock Paper Scissors](https://github.com/ytsai4/OdinProject/tree/master/rock-paper-scissors)
 
 ## Author
 
