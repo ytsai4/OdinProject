@@ -1,4 +1,4 @@
-# The Odin Project - Odin recipes solution
+# The Odin Project - Project solutions
 
 This is a solutions to the [Odin Project](https://www.theodinproject.com/about). The Odin Project is designed to fill in the gap for people who are trying to hack it on their own but still want a high quality education.
 
