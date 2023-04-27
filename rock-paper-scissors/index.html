@@ -5,11 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Katherine Tsai" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Rock Paper Scissors</title>
   </head>
   <body>
     <header><h1>Rock Paper Scissors</h1></header>
-    <main></main>
-    <script src="./app.js"></script>
+    <section class="end">
+      <div class="alert">
+        <h2 class="final-result"></h2>
+        <p class="question">Do you want to play again?</p>
+        <div class="reset-btn">Reset</div>
+      </div>
+    </section>
+    <main>
+      <section class="result">
+        <h2 class="claim">Choose</h2>
+        <p class="detail">Reach 5 points first to win.</p>
+      </section>
+      <section class="play-btns">
+        <div class="btn" data-key="Rock">
+          <i data-key="Rock" class="fa-solid fa-hand-back-fist"></i>
+        </div>
+        <div class="btn" data-key="Paper">
+          <i data-key="Paper" class="fa-solid fa-hand"></i>
+        </div>
+        <div class="btn" data-key="Scissors">
+          <i data-key="Scissors" class="fa-solid fa-hand-scissors"></i>
+        </div>
+      </section>
+      <section class="scores">
+        <div class="player">Player: 0</div>
+        <div class="computer">Computer: 0</div>
+      </section>
+    </main>
+    <footer class="attribute">
+      Code by
+      <a href="https://github.com/ytsai4" target="_blank">Katherine Tsai</a>
+    </footer>
+    <script src="./game.js"></script>
   </body>
 </html>
