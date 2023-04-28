@@ -8,6 +8,7 @@ This is a solutions to the [Odin Project](https://www.theodinproject.com/about).
   - [Odin recipes](#odin-recipes)
   - [Landing page](#landing-page)
   - [Rock Paper Scissors](#rock-paper-scissors)
+  - [Etch-A-Sketch](#etch-a-sketch)
 - [Author](#author)
 
 ## Solutions
@@ -23,6 +24,10 @@ This is a solutions to the [Odin Project](https://www.theodinproject.com/about).
 ### Rock Paper Scissors
 
 - [Rock Paper Scissors](https://github.com/ytsai4/OdinProject/tree/master/rock-paper-scissors)
+
+### Etch-A-Sketch
+
+- [Etch-A-Sketch](https://github.com/ytsai4/OdinProject/tree/master/etch-a-sketch)
 
 ## Author
 
