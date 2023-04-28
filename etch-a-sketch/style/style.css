@@ -6,6 +6,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Indie Flower", cursive;
 }
 body h1 {
@@ -36,4 +37,24 @@ body section.container {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 2px 0.5rem rgba(0, 0, 0, 0.2);
+}
+body footer.attribute {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 3rem;
+  padding: 1rem 0;
+  line-height: 1rem;
+  color: black;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  font-weight: 700;
+}
+body footer.attribute a {
+  text-decoration: none;
+  color: black;
+}
+body footer.attribute a:hover {
+  color: aquamarine;
 }/*# sourceMappingURL=style.css.map */
