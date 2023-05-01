@@ -9,6 +9,7 @@ This is a solutions to the [Odin Project](https://www.theodinproject.com/about).
   - [Landing page](#landing-page)
   - [Rock Paper Scissors](#rock-paper-scissors)
   - [Etch-A-Sketch](#etch-a-sketch)
+  - [Calculator](#calculator)
 - [Author](#author)
 
 ## Solutions
@@ -28,6 +29,10 @@ This is a solutions to the [Odin Project](https://www.theodinproject.com/about).
 ### Etch-A-Sketch
 
 - [Etch-A-Sketch](https://github.com/ytsai4/OdinProject/tree/master/etch-a-sketch)
+
+### Calculator
+
+- [Calculator](https://github.com/ytsai4/OdinProject/tree/master/calculator)
 
 ## Author
 
